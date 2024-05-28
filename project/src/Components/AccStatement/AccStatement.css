@@ -1,0 +1,103 @@
+/* AccStatement.css */
+
+.Algin{
+  margin-top: 110px;
+  margin-right: 5px;
+}
+.table-container1 {
+  width: 100%;
+  overflow-x: auto;  
+  max-height: 300px; 
+} 
+/* Add any other styles you need for your table */
+
+.account-statement {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 7px;
+  margin-bottom: -120px;
+  border-radius: 21px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #c4c2c2c4;
+  margin-top: -23px;
+}
+
+.background {
+  background-color: #07070798;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  border-radius: 17px 17px 0 0;
+}
+
+.statname {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tablestate {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.titstat {
+  background-color: #0e0d0dbd;
+  color: white;
+}
+
+.tablerow {
+  border-bottom: 1px solid #ddd;
+}
+
+.tablestate th,
+.tablestate td {
+  padding: 10px;
+  text-align: left;
+}
+
+.back-button2 {
+  background-color: #141414e7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 125px;
+  margin-left: 730px;
+  z-index: 1000;
+  position: absolute;
+}
+
+.back-button2:hover {
+  background-color: #0a0a0aa1;
+}
+
+.Pagination {
+  margin-top: -15px;
+  text-align: center;
+}
+
+.PrevButton,
+.NextButton {
+  background-color: #0b0c0be7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 5%;
+}
+
+.PrevButton:hover,
+.NextButton:hover {
+  background-color: #0a0a0abb;
+}
+
+.PageNumber {
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}

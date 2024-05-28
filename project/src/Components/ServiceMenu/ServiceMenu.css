@@ -1,0 +1,61 @@
+ServiceRequestMenu.css
+.main{
+  height:50vh;
+  overflow: hidden;
+
+}
+.button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+
+.service-request-container {
+    background-color: rgba(240, 235, 235, 0.863);
+    padding: 10px;
+    color: black;
+    margin-bottom:-500px;
+    text-align: center;
+    margin: 20px auto;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 8%;
+    padding-top: 0px;
+    overflow: hidden;
+    height: 200px;
+    font-size: large;
+    padding-bottom: 5px;
+    border-radius: 40px;
+  }
+ul{
+  margin-top: 40px;
+ 
+}
+
+
+  h2 {
+    color: #080808;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding-bottom: 5px;
+    margin: 0px 0px;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: #030303;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+
+

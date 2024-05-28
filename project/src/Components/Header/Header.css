@@ -1,0 +1,38 @@
+#header h1 {
+  background-color: rgba(46, 46, 46, 0.863);
+    width: max-content;
+    color: rgb(0, 0, 0);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+    margin-top: -5%;
+    
+  }
+ h1{
+   background-color: rgba(46, 46, 46, 0.863);
+    padding:20px;
+    margin-top: 0%;
+    height: 54px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-stretch: expanded;
+    font-size:xx-large;
+   }
+    img{
+    margin-left:-800px;
+    background: transparent;
+    position:fixed;
+    filter:brightness(0) invert(1);
+    margin-top: -2%;
+    padding-left: -10x;
+    width: 100px; 
+    height: auto; 
+     margin-right: 10px; 
+   }  
+  
+
+

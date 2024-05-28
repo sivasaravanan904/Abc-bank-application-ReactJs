@@ -1,0 +1,103 @@
+/* LostorStolen.css */
+
+.stoltit {
+  font-size: x-large;
+  text-align: center;
+  color: #0a0606;
+  background-color: transparent;
+  margin-top: -56px !important;
+}
+
+.containerStylestolen {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #1f1e1ead;
+  margin-top: 0%;
+  height: auto;
+  overflow: hidden;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.labstol,
+.labstol1,
+.labstol2,
+.labstol3,
+.labstol4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  text-align: left; /* Align labels to the left */
+  width: 50%; /* Adjust width of labels */
+  margin-top: 25px !important;
+}
+
+.salstol,
+.salstol1,
+.salstol2,
+.salstol3 {
+  /* width: 65%; */
+  padding: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 20%;
+  /* transform: translateX(-50%); Center inputs */
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.containerStylestolen input, select{
+  width: 75%; /* Set the width of labels and inputs */
+}
+
+
+.stol {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.stol button {
+  background-color: #0e1011;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.stol button:hover {
+  background-color: #07070779;
+}
+
+.containerStylestolen {
+  position: relative;
+}
+
+.blurred {
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.page-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
